@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center border border-info my-1 px-2 ">
+  <div class="text-center border border-info my-1 px-2">
     <p v-on:click="doAction">{{ ans }}</p>
   </div>
 </template>
