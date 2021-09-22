@@ -24,23 +24,23 @@ export default {
       count: 0,
     };
   },
-  methods: {
-    doCountUp() {
-      this.count++;
-    }
-  },
     methods: {
       checkAction() {
-columnA = [cells[0],cells[3],cells[6]]
-columnB = [cells[1],cells[4],cells[7]]
-columnC = [cells[2],cells[5],cells[8]]
+const columnA = [cells[0],cells[3],cells[6]]
+const columnB = [cells[1],cells[4],cells[7]]
+const columnC = [cells[2],cells[5],cells[8]]
 
-rowA = [cells[0],cells[1],cells[2]]
-rowA = [cells[3],cells[4],cells[5]]
-rowA = [cells[6],cells[7],cells[8]]
+const rowA = [cells[0],cells[1],cells[2]]
+const rowB = [cells[3],cells[4],cells[5]]
+const rowC = [cells[6],cells[7],cells[8]]
 
-
-      }
+const diagonalA = [cells[0],cells[4],cells[8]]
+const diagonalB = [cells[2],cells[14,cells[6]]
+      },
+doCountUp(clickNumber,cell) {
+      this.count++;
+      this.cells[clickNumber] = cell;
+    },
     },
 };
 </script>
